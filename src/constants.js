@@ -1,3 +1,5 @@
+const IMAGE_BASE = `${import.meta.env.BASE_URL}images/`
+
 export const SHOP_NAME = 'Fade District'
 export const SHOP_LOCATION = 'Johannesburg'
 export const BRAND_NAME = 'QueueFlow'
@@ -19,27 +21,30 @@ export const BARBERS = [
     id: 'thabo',
     name: 'Thabo',
     specialty: 'Fade Specialist',
-    photo: '/images/barbers/thabo.jpg',
+    photo: `${IMAGE_BASE}barbers/thabo.jpg`,
   },
   {
     id: 'sizwe',
     name: 'Sizwe',
     specialty: 'Classic Cuts',
-    photo: '/images/barbers/sizwe.jpg',
+    photo: `${IMAGE_BASE}barbers/sizwe.jpg`,
   },
   {
     id: 'kabelo',
     name: 'Kabelo',
     specialty: 'Fades & Beard',
-    photo: '/images/barbers/kabelo.jpg',
+    photo: `${IMAGE_BASE}barbers/kabelo.jpg`,
   },
   {
     id: 'neo',
     name: 'Neo',
     specialty: 'Kids & Classic',
-    photo: '/images/barbers/neo.jpg',
+    photo: `${IMAGE_BASE}barbers/neo.jpg`,
   },
 ]
+
+export const HERO_IMAGE = `${IMAGE_BASE}hero.jpg`
+export const GRAIN_IMAGE = `${IMAGE_BASE}grain.png`
 
 export const SERVICES = [
   { id: 'haircut', name: 'Haircut', price: 80 },
