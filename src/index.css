@@ -72,7 +72,7 @@ body {
   z-index: 90;
   opacity: 0.08;
   mix-blend-mode: overlay;
-  background-image: url("/images/grain.png");
+  background-image: url("./images/grain.png");
   background-size: 128px 128px;
   background-repeat: repeat;
 }
