@@ -35,6 +35,7 @@
   --qf-go: #3d6b4f;
   --qf-wait: #b8893a;
   --qf-stop: #9a4545;
+  --qf-grain-image: none;
 }
 
 * {
@@ -72,7 +73,7 @@ body {
   z-index: 90;
   opacity: 0.08;
   mix-blend-mode: overlay;
-  background-image: url("./images/grain.png");
+  background-image: var(--qf-grain-image);
   background-size: 128px 128px;
   background-repeat: repeat;
 }
