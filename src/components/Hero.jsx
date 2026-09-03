@@ -1,11 +1,11 @@
-import { SHOP_NAME } from '../constants'
+import { SHOP_NAME, HERO_IMAGE } from '../constants'
 import { PrimaryButton } from './ui'
 
 export default function Hero({ onJoin }) {
   return (
     <section className="relative min-h-[calc(100svh-7rem)] overflow-hidden bg-ink">
       <img
-        src="/images/hero.jpg"
+        src={HERO_IMAGE}
         alt=""
         className="kenburns absolute inset-0 h-full w-full object-cover"
       />
